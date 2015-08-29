@@ -7,6 +7,20 @@
 ### Answer
 
 - Evaluate 1 + 1 and then 1 + "one". Is Io strongly typed or weakly typed? Support your answer with code.
+  - Io is strongly typed.
+    - > In computer programming, programming languages are often colloquially referred to as strongly typed or weakly typed. These terms do not have a precise definition, but in general, a strongly typed language is more likely to generate an error or refuse to compile if the argument passed to a function does not closely match the expected type. On the other hand, a very weakly typed language may produce unpredictable results or may perform implicit type conversion.
+
+  ```
+  Io> 1 + 1
+  ==> 2
+  Io> 1 + "one"
+
+  Exception: argument 0 to method '+' must be a Number, not a 'Sequence'
+  ---------
+  message '+' in 'Command Line' on line 1
+
+  Io>
+  ```
 
 ### Questions
 
