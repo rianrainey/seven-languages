@@ -4,7 +4,7 @@
 - A style guide with Io idioms
   - http://iolanguage.org/scm/io/docs/IoGuide.html
 
-### Answer
+### Questions
 
 - Evaluate 1 + 1 and then 1 + "one". Is Io strongly typed or weakly typed? Support your answer with code.
   - Io is strongly typed.
@@ -22,8 +22,6 @@
 
   Io>
   ```
-
-### Questions
 
 - Is 0 true or false?
 
@@ -59,3 +57,13 @@
     newbie := Developer setSkill("Beginner")
     newbie skill println
     ```
+### Do
+
+- Run an Io program from a file.
+  - `io rrainey/day01/hello_world.io`
+- Execute the code in a slot given its name.
+  ```
+  my_object := Object clone
+  my_object type
+  ```
+
